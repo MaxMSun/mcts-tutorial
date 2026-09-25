@@ -11,6 +11,12 @@ Tutorial notebooks for the IROS 2026 Workshop on Search Algorithms for Robot Lea
 | **Spectral Quadrotor (2D)**<br><img src="images/spectral_quadrotor.gif" alt="A planar quadrotor navigating with spectral motion primitives and MCTS" width="280" height="280"> | [Jupyter Notebook](mcts_spectral_quadrotor.ipynb)<br>[Google Colab](https://colab.research.google.com/github/MaxMSun/mcts-tutorial/blob/main/mcts_spectral_quadrotor.ipynb) |
 | **Spectral Quadrotor (3D)**<br><img src="images/spectral_quadrotor_3d.gif" alt="A 3D quadrotor flying between cylindrical obstacles with its MCTS search tree" width="280" height="280"> | [Jupyter Notebook](mcts_spectral_quadrotor_3d.ipynb)<br>[Google Colab](https://colab.research.google.com/github/MaxMSun/mcts-tutorial/blob/main/mcts_spectral_quadrotor_3d.ipynb) |
 
+## Bellmax and LQRax
+
+[**Bellmax**](bellmax.py) is a compact Monte Carlo tree search solver built with JAX. It provides customizable actions, dynamics, rewards, and search policies, with built-in tree management and value backups.
+
+[**LQRax**](lqrax.py) is a differentiable continuous-time LQR solver built with JAX, adapted from [LQRax](https://github.com/MaxMSun/lqrax). It provides feedback control through backward integration of the Riccati equations. It can be used with *Bellmax* to combine tree search with feedback control for planning with nonlinear systems.
+
 ## License
 
 Distributed under the [GNU General Public License v3](LICENSE).

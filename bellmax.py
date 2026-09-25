@@ -1,3 +1,6 @@
+# Copyright (C) 2026 Max Muchen Sun.
+# Licensed under the GNU General Public License v3 (GPLv3); see LICENSE.
+
 from __future__ import annotations
 
 from functools import partial
